@@ -14,7 +14,7 @@ public class App
     {
         if (args.length != 1) {
             System.out.println(
-                    "Application takes one argument and that is the CSV file ABSOLUTE path.\n" +
+                    "Application takes one argument and that is a path to the CSV file.\n" +
                             "Type 'help' to get more info.");
             return;
         }
@@ -22,7 +22,7 @@ public class App
         if (Objects.equals(args[0], "help")) {
             System.out.println(
                     "Usage:\n" +
-                            "program /this/is/an/absolute/path.csv"
+                            "java -cp ./my-app-1.0-SNAPSHOT.jar com.mycompany.app.App filepath.csv"
             );
             return;
         }
