@@ -1,0 +1,5 @@
+com\mycompany\app\CsvReader.class
+com\mycompany\app\App.class
+com\mycompany\app\ReaderInterface.class
+com\mycompany\app\ParserInterface.class
+com\mycompany\app\CsvParser.class
